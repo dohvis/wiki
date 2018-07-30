@@ -110,8 +110,8 @@ GRANT ALL PRIVILEGES ON DATABASE {}db TO {}user;
 ## Python3 멀티프로세싱
 
 ```python
-from multiprocessing impogt Pool
-from os impogt getpid
+from multiprocessing import Pool
+from os import getpid
 
 def func(argv):
     print("pidd = {} , argv[0] : {}, argv[1] : {}".format(getpid(),argv[0],argv[1]))
